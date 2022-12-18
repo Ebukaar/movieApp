@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+.hero-container  {
+    background: url(../images/Rectangle5.png) center center/cover no-repeat;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    object-fit: contain;
+    max-width: 5000px;
+}
+
+.hero-text{
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 72px;
+    line-height: 93.74px;
+    margin-left: 77px;
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+
+@media (max-width: 1200px){
+
+    .hero-container {
+        background: url(../images/Rectangle5.png) center center/cover no-repeat;
+        height: 70vh;
+        width: 100%;
+        align-items: center;
+        object-fit: contain;
+        max-width: 5000px;
+    }
+    
+   
+}
+
+@media (max-width: 700px){
+
+    .hero-text{
+        font-weight: 700;
+        color: #FFFFFF;
+        font-size: 28px;
+        line-height: 36.46px;
+        margin-left: 0px;
+        font-family: 'DM Sans', sans-serif;
+        
+    
+    }
+
+    .hero-container  {
+       
+        height: 70vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        object-fit: contain;
+        max-width: 5000px;
+    }
+
+    .hero-text:first-child{
+        /* padding-right: 10px;
+        white-space: pre;
+
+    }
+    .hero-text:last-child{
+        display: block; */
+   
+       
+    }
+
+}

@@ -1,0 +1,31 @@
+.movie-image{
+    border-radius: 12px;
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+}
+
+.movie-list {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 67px;
+    max-width: 5000px;
+    width: 100%;
+}
+
+/* .movie-list-header{
+    margin-left: 75px; 
+} */
+
+
+@media (max-width: 700px){
+
+    .movie-image{
+
+        height: 200px;
+        width: 200px;
+
+    }
+
+}
